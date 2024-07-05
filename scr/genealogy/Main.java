@@ -3,13 +3,13 @@ package scr.genealogy;
 public class Main {
     public static void main(String[] args) {
         FamilyTree tree = new FamilyTree();
-        tree.addChild("John", "Michael");
-        tree.addChild("John", "Sarah");
-        tree.addChild("Michael", "Kevin");
-        tree.addChild("Sarah", "Sophie");
+        tree.addChild("Иван", "Алексей");
+        tree.addChild("Иван", "Мария");
+        tree.addChild("Алексей", "Сергей");
+        tree.addChild("Мария", "Анна");
 
-        tree.getChildren("John");
-        tree.getChildren("Michael");
-        tree.getChildren("Sarah");
+        tree.getChildren("Иван");
+        tree.getChildren("Алексей");
+        tree.getChildren("Мария");
     }
 }
